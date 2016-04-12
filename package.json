@@ -1,0 +1,27 @@
+{
+  "name": "express-simple-redirect",
+  "version": "0.0.1",
+  "description": "Express middleware to redirect to external URLs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielthepope/express-simple-redirect.git"
+  },
+  "keywords": [
+    "express",
+    "middleware",
+    "redirect",
+    "http",
+    "https",
+    "url"
+  ],
+  "author": "Dan Pope (http://www.danielthepope.co.uk)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/danielthepope/express-simple-redirect/issues"
+  },
+  "homepage": "https://github.com/danielthepope/express-simple-redirect#readme"
+}
