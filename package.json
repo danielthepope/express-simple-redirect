@@ -1,6 +1,6 @@
 {
   "name": "express-simple-redirect",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Express middleware to redirect to external URLs",
   "main": "index.js",
   "scripts": {
