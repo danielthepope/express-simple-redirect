@@ -1,4 +1,7 @@
 # express-simple-redirect
+
+![Travis CI status](https://travis-ci.org/danielthepope/express-simple-redirect.svg?branch=master)
+
 This module takes express routes and redirects them to external URLs.
 
 It is very similar to `redirects` on [NPM](https://libraries.io/npm/redirects). In fact, I based my tests on the tests in `redirects`. The difference between the two is my one doesn't rely on any other external libraries, so doesn't have as many features, hence the name 'simple'.
