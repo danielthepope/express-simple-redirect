@@ -12,9 +12,9 @@ app.get('/thing', function (request, response) {
 });
 
 app.use(redirect({
-  '/google': 'https://google.com',
-  '/twitter': 'https://twitter.com',
-  '/some': '/thing'
+  '/example': 'http://example.com',
+  '/some': '/thing',
+  '/email': 'mailto:email@example.com'
 }));
 
 app.listen(3000, function () {

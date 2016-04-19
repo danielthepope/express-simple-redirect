@@ -52,10 +52,10 @@ describe('redirect middleware', function () {
       .end(done);
   });
 
-  it('adds leading slash to all redirect paths', function (done) {
+  it('adds leading slash to source paths', function (done) {
     var app = express()
       .use(redirect({
-        'source': 'redirect'
+        'source': '/redirect'
       }));
 
     request(app)

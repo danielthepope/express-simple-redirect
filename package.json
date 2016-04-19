@@ -1,7 +1,7 @@
 {
   "name": "express-simple-redirect",
   "version": "1.0.0",
-  "description": "Express middleware to redirect to external URLs",
+  "description": "Express middleware to redirect to other URLs",
   "main": "index.js",
   "scripts": {
     "test": "mocha test/ -R spec"
