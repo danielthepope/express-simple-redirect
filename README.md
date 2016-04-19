@@ -1,6 +1,6 @@
 # express-simple-redirect
 
-![Travis CI status](https://travis-ci.org/danielthepope/express-simple-redirect.svg?branch=master)
+[![Build Status](https://travis-ci.org/danielthepope/express-simple-redirect.svg?branch=master)](https://travis-ci.org/danielthepope/express-simple-redirect)
 
 This module takes express routes and redirects them to external URLs.
 
