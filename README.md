@@ -1,8 +1,8 @@
 # express-simple-redirect
 
-[![Build Status](https://travis-ci.org/danielthepope/express-simple-redirect.svg?branch=master)](https://travis-ci.org/danielthepope/express-simple-redirect)
+[![Build Status](https://travis-ci.org/danielthepope/express-simple-redirect.svg?branch=master)](https://travis-ci.org/danielthepope/express-simple-redirect) [![Dependency Status](https://dependencyci.com/github/danielthepope/express-simple-redirect/badge)](https://dependencyci.com/github/danielthepope/express-simple-redirect)
 
-This module takes express routes and redirects them to external URLs.
+This module takes express routes and redirects them to external or internal URLs.
 
 It is very similar to `redirects` on [NPM](https://libraries.io/npm/redirects). In fact, I based my tests on the tests in `redirects`. The difference between the two is my one doesn't rely on any other external libraries, so doesn't have as many features, hence the name 'simple'.
 
@@ -18,7 +18,8 @@ var redirect = require('express-simple-redirect');
 // a bunch of express route definitions
 
 app.use(redirect({
-  '/my-url':'http://example.com'
+  '/my-url': 'http://example.com',  // Redirect to external URL
+  '/info': '/about'                 // Internal redirect to /about page
 }));
 ```
 
@@ -42,7 +43,9 @@ You may want to separate your redirects even further by putting them in a differ
 
 ``` json
 {
-  "/url": "http://www.example.com"
+  "/url": "http://www.example.com",
+  "/info": "/about",
+  ...
 }
 ```
 
